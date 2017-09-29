@@ -1,0 +1,4 @@
+CI/CD - Continuous Integration Continous Delivery
+CM Configuration Management
+
+
