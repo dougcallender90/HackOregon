@@ -1,11 +1,10 @@
 language: node_js
-node_js: 
-    '6.0'
-before_instal: npm instal mocha
-intall: npm install
+node_js:
+- '6.0'
+install: npm install
 deploy:
-    provider: s3
-    access_key_id: MY PUBLIC KEY
-    secret_access_key: MY SECRET KEY
-    bucket:
-    region: us-west-2
+  provider: s3
+  access_key_id: "${AWS_ACCESS_KEY}"
+  secret_access_key: "${AWS_SECRET_KEY}"
+  bucket: "dougcallenderassign2"
+  region: us-west-2
